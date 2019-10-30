@@ -1,0 +1,41 @@
+/*
+    整体布局：
+        五栏 -> 234*5+14*4 -> 最小宽度1226
+*/
+body,ul,ol,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,input,button{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    color: #333;
+    background-color: rgb(245, 245, 245);
+    /* overflow-y: scroll; */
+}
+ul,ol,li,dl,dt,dd{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+    color: #b0b0b0;
+}
+input, button{
+    outline: none;
+    border: 1px solid #ccc;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.iconfont{
+    font-size: 20px;
+    vertical-align: middle;
+}
+img{
+    vertical-align: middle;
+}
