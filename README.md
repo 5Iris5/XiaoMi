@@ -23,7 +23,8 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  1) 使用以上公式设置网页最小宽度,两边自适应留白</br>
 &emsp;&emsp;&emsp;&emsp;  注意:</br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  2) min/max-width/height与margin-left/right自适应auto不要共用</br>
-![布局核心](images/layout.png)</br>
+![整体布局](./images/layout.png)  
+</br>
 &emsp;&emsp;&emsp;&emsp;  建议: 首页布局划分成六大块</br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  1) 顶部导航栏 nav</br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  2) 头部产品栏 header</br>
@@ -51,6 +52,6 @@ transform: translate3d(0,-2px,0);
 ##### 二. JS功能模块
 &emsp;&emsp;  1. 头部产品区域 鼠标滑入滑出控制元素高度,为什么原字体的字体形态变了?</br>
 &emsp;&emsp;  2. 模拟百度搜索词时,输入结果为空依旧生成新节点</br>
-&emsp;&emsp;&emsp;&emsp; 解决: 没有过滤掉文本最前面的空字符串trim()
+&emsp;&emsp;&emsp;&emsp; 解决: 没有过滤掉文本最前面的空字符串trim()</br>
 &emsp;&emsp;  3. 箭头函数的this指向问题</br>
 &emsp;&emsp;  4. 回到顶部过快,如何能够以比较平滑的效果回到页面顶部?</br>
