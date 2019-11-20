@@ -1,4 +1,5 @@
 # XiaoMi商城PC端
+### 效果预览： https://5iris5.github.io/XiaoMi/%E9%A6%96%E9%A1%B5.html
 ### 技术栈: HTML + CSS + JavaScript
 ### 项目预计周期: 2019/10/21 - 2019/10/27
 ### 完成情况:
